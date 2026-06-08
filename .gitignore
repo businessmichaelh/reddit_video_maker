@@ -1,0 +1,13 @@
+# Secrets - never commit these
+.env
+youtube_client_secret.json
+youtube_token.json
+tiktok_token.json
+
+# Generated output / large media
+output/
+__pycache__/
+*.pyc
+last_error.log
+testTEMP_MPY_wvf_snd.mp4
+backgrounds/

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Reddit Story Video Maker</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #1a1a1a;
+    }
+    h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+    h2 { font-size: 1.25em; margin-top: 1.6em; }
+    .updated { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+    code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    ul { padding-left: 1.4em; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Reddit Story Video Maker</h1>
+  <p class="updated">Last updated: 2026-06-07</p>
+
+  <p>
+    Reddit Story Video Maker is a personal-use desktop application that creates
+    short-form narrated videos from text-based stories and publishes the
+    finished videos to a single TikTok account that the app's developer owns
+    and operates.
+  </p>
+
+  <h2>What data we access</h2>
+  <p>When you sign in through TikTok's OAuth flow, the app receives:</p>
+  <ul>
+    <li>An OAuth access token and refresh token, used solely to authenticate API requests on your behalf</li>
+    <li>Basic account identifiers required by TikTok's API to associate uploads with your account</li>
+  </ul>
+  <p>
+    The app does not access, read, or store your existing TikTok videos,
+    follower lists, messages, analytics, or any other account data beyond
+    what's strictly required to upload and publish new videos that the app
+    itself creates.
+  </p>
+
+  <h2>How we store it</h2>
+  <p>
+    OAuth tokens are stored locally on the device running the app, in a single
+    local file (<code>tiktok_token.json</code>). They are never transmitted to
+    any server other than TikTok's own API endpoints
+    (<code>open.tiktokapis.com</code>), and are never shared with, sold to, or
+    processed by any third party.
+  </p>
+
+  <h2>How we use it</h2>
+  <p>The stored token is used exclusively to:</p>
+  <ul>
+    <li>Upload a video file the app has rendered locally to TikTok's servers</li>
+    <li>Publish that video (or send it to the account's inbox for review) under the signed-in account</li>
+  </ul>
+  <p>No automated or scheduled posting occurs without the user directly initiating it through the app's interface.</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>You can revoke the app's access at any time by:</p>
+  <ul>
+    <li>Deleting the local <code>tiktok_token.json</code> file, and/or</li>
+    <li>Revoking the app's authorization from your TikTok account's connected-apps settings</li>
+  </ul>
+  <p>
+    Doing either immediately and permanently removes the app's ability to act
+    on your account. We retain no copies of your data once access is revoked.
+  </p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be directed to: <code>[your email address]</code></p>
+</body>
+</html>
